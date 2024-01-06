@@ -83,8 +83,24 @@ li{
   background-size: cover;
 }
 .footer{
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
 }
+.links ul{
+  display: flex;
+  gap: 20px;
+}
+
 .links li a{
   color: var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.links li a:hover{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }

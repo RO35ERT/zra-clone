@@ -82,3 +82,9 @@ li{
   background-position: center;
   background-size: cover;
 }
+.footer{
+  
+}
+.links li a{
+  color: var(--primary-color);
+}

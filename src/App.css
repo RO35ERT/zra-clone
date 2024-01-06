@@ -44,7 +44,15 @@ a{
   color: var(--secondary-color);
   font-family: "Poppins";
 }
-
 .navbar ul li a:hover{
   text-decoration: underline;
+}
+.login{
+  background-color: var(--tertially-color);
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+.login:hover{
+  text-decoration: none;
+  background-color: #0068a9c9;
 }

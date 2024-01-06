@@ -19,3 +19,32 @@
 body{
   font-family: var(--all-font) sans-serif;
 }
+a{
+  color: transparent;
+  text-decoration: none;
+}
+.navbar{
+  background-color: var(--primary-color);
+  padding: 30px;
+}
+.navbar ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.navbar ul li a img{
+  height: 90px;
+}
+
+.navbar ul li{
+  list-style: none;
+}
+.navbar ul li a{
+  color: var(--secondary-color);
+  font-family: "Poppins";
+}
+
+.navbar ul li a:hover{
+  text-decoration: underline;
+}

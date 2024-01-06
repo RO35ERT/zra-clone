@@ -12,7 +12,7 @@ const MainNavbar = () => {
                 <li><Link>STATISTICS</Link></li>
                 <li><Link>TAX TOOLS</Link></li>
                 <li><Link>SMART INVOICE</Link></li>
-                <li><Link>s</Link></li>
+                <li className="search"><Link><i className="material-symbols-outlined">search</i></Link></li>
             </ul>
         </div>
      );

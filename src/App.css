@@ -72,3 +72,12 @@ li{
   color: var(--secondary-color);
   font-family: var(--links-font);
 }
+.search{
+  padding-top: 8px;
+}
+
+.hero{
+  background-image: url('https://unsplash.com/photos/green-cactus-plant-on-white-table-nCk22aqZjlM');
+  height: 200px;
+  border: 4px solid green;
+}

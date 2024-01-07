@@ -4,6 +4,7 @@
   --primary-color: #0068a9;
   --secondary-color: #fff;
   --tertially-color: #c0a062;
+  --complimentary: #f0f1f3;
   --links-font: "Poppins";
   --all-font: "Montserrat";
 }
@@ -81,7 +82,31 @@ li{
   height: 200px;
   background-position: center;
   background-size: cover;
+  padding: 10px 0;
+  background-color: var(--complimentary);
 }
+
+.hero h1{
+  text-align: center;
+}
+
+.hero a{
+  color: var(--secondary-color);
+  background-color: var(--tertially-color);
+  padding: 5px 10px;
+}
+
+
+
+.hero-details{
+  display: flex;
+  gap: 20px;
+  background-color: var(--secondary-color);
+  padding: 30px 10px;
+  margin: 0 10px;
+}
+
+
 .footer{
   display: flex;
   align-items: center;

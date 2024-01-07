@@ -142,6 +142,18 @@ li{
   justify-content: space-between;
 }
 
+hr{
+  border: .1px solid var(--complimentary);
+}
+
+.all_links h1{
+  text-transform: uppercase;
+  font-family: "Poppins";
+  color: var(--secondary-color);
+  font-size: 24px;
+  padding: 5px 0;
+}
+
 
 .footer{
   display: flex;

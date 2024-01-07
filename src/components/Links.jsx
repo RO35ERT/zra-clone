@@ -6,6 +6,7 @@ const Links = () => {
         <div className="all_links">
             <div className="contact">
                     <h1>Contact Us</h1>
+                    <hr />
                     <div className="contact-details">
                         <p>Plot No 1704 Kalambo Road / Villa Elizabetha, Lusaka</p>
                         <p>4111</p>
@@ -14,6 +15,7 @@ const Links = () => {
             </div>
             <div className="other_links">
                 <h1>Other Links</h1>
+                <hr />
                 <div className="other-links-links">
                     <ul>
                         <li><Link>National Pension Scheme Authority</Link></li>
@@ -33,6 +35,7 @@ const Links = () => {
             </div>
             <div className="social_links">
                 <h1>Social Media</h1>
+                <hr />
                 <div className="links">
                     <ul>
                         <li><Link><i className="fa fa-facebook"></i></Link></li>

@@ -21,7 +21,7 @@ body{
   font-family: var(--all-font) sans-serif;
 }
 a{
-  color: transparent;
+  color: #010101;
   text-decoration: none;
 }
 li{

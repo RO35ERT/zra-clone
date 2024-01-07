@@ -90,16 +90,28 @@ li{
   text-align: center;
 }
 
+
+.hero h2{
+  font-size: 16px;
+}
+
 .hero a{
   color: var(--secondary-color);
   background-color: var(--tertially-color);
   padding: 5px 10px;
+  border-radius: 5px;
 }
 
-
+.hero select{
+  border: none;
+  background-color: var(--secondary-color);
+  outline: none;
+}
 
 .hero-details{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 20px;
   background-color: var(--secondary-color);
   padding: 30px 10px;

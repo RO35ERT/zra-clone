@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="hero-details">
                 <h2>What would tou like to do</h2>
                 <select name="" id="">
-                    <option value="">select option</option>
+                    <option value="">select a service</option>
                     <option value="">Register for a TPIN</option>
                     <option value="">File Returns</option>
                     <option value="">Pay Taxes Online</option>

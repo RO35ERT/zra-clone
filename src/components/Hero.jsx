@@ -21,7 +21,6 @@ const Hero = () => {
                     Forex Exchange Rates
                 </div>
                 <div className="forex-rates">
-
                 </div>
             </div>
         </div>

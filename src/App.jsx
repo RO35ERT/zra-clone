@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import MainNavbar from './components/MainNavbar';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
-
+import Links from './components/Links';
 function App() {
   return (
     <div className="App">
@@ -12,6 +12,7 @@ function App() {
           <Navbar/>
           <MainNavbar/>
           <Hero/>
+          <Links/>
           <Footer/>
       </BrowserRouter>
     </div>

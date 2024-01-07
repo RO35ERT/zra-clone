@@ -155,6 +155,26 @@ hr{
   font-weight: bolder;
 }
 
+.all_links div{
+  padding: 20px 0;
+}
+
+.contact-details p,
+.other-links-links ul li,
+.links{
+  color: var(--secondary-color);
+  padding: 5px 0;
+}
+
+.other-links-links ul li a{
+  color: var(--secondary-color);
+  transition: .5s;
+}
+
+.other-links-links ul li a:hover{
+  text-decoration: underline;
+}
+
 
 .footer{
   display: flex;

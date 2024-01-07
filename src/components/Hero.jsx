@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
     return ( 
         <div className="hero">
-            <h1>Tax Information</h1>
+            <h1>tax Information and services</h1>
             <div className="hero-details">
                 <h2>What would tou like to do</h2>
                 <select name="" id="">
@@ -18,7 +18,10 @@ const Hero = () => {
             </div>
             <div className="forex">
                 <div className="corousel">
-                    <p>Forex Exchange Rates</p>
+                    Forex Exchange Rates
+                </div>
+                <div className="forex-rates">
+
                 </div>
             </div>
         </div>

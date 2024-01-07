@@ -121,6 +121,17 @@ li{
   border-radius: 10px;
 }
 
+.forex{
+  display: flex;
+  align-items: center;
+}
+
+.forex .corousel{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: "Poppins";
+  padding: 10px 3px;
+}
 
 .footer{
   display: flex;

@@ -135,6 +135,11 @@ li{
 
 .all_links{
   padding: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--primary-color);
+  justify-content: space-between;
 }
 
 

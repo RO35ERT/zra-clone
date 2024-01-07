@@ -2,13 +2,13 @@ const Links = () => {
     return ( 
         <div className="all_links">
             <div className="contact">
-                contact
+                    <h1>Contact Us</h1>
             </div>
             <div className="other_links">
-                other links
+                <h1>Other Links</h1>
             </div>
             <div className="social_links">
-                social links
+                <h1>Social Media</h1>
             </div>
         </div>
      );

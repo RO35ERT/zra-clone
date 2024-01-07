@@ -16,6 +16,11 @@ const Hero = () => {
                 </select>
                 <Link>Get started</Link>
             </div>
+            <div className="forex">
+                <div className="corousel">
+                    <p>Forex Exchange Rates</p>
+                </div>
+            </div>
         </div>
      );
 }

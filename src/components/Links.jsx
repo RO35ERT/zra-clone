@@ -33,6 +33,15 @@ const Links = () => {
             </div>
             <div className="social_links">
                 <h1>Social Media</h1>
+                <div className="links">
+                    <ul>
+                        <li><Link><i className="fa fa-facebook"></i></Link></li>
+                        <li><Link><i className="fa fa-twitter"></i></Link></li>
+                        <li><Link><i className="fa fa-instagram"></i></Link></li>
+                        <li><Link><i className="fa fa-linkedin"></i></Link></li>
+                        <li><Link><i className="fa fa-youtube"></i></Link></li>
+                    </ul>
+                </div>
             </div>
         </div>
      );

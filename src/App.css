@@ -92,7 +92,7 @@ li{
 
 
 .hero h2{
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .hero a{
@@ -100,22 +100,25 @@ li{
   background-color: var(--tertially-color);
   padding: 5px 10px;
   border-radius: 5px;
+  font-size: 20px;
 }
 
 .hero select{
   border: none;
   background-color: var(--secondary-color);
   outline: none;
+  font-size: 20px;
 }
 
 .hero-details{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   background-color: var(--secondary-color);
   padding: 30px 10px;
-  margin: 0 10px;
+  margin: 10px 120px;
+  border-radius: 10px;
 }
 
 

@@ -166,11 +166,14 @@ hr{
   padding: 5px 0;
 }
 
+
 .other-links-links ul li a{
   color: var(--secondary-color);
   transition: .5s;
 }
-
+.all_links .links a{
+  background-color: #80b4d4;
+}
 .other-links-links ul li a:hover{
   text-decoration: underline;
 }
